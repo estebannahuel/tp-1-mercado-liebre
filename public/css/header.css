@@ -1,0 +1,31 @@
+
+.home header{
+    background-color: var(--colorAmarillo);
+}
+.home header .search--bar {
+display: inline-block;
+margin: 20px 15px;
+}
+.home header .search--bar img {
+   width: 150px;
+   margin: 0px 10px;
+   margin-bottom: 10px;
+}
+
+.subTitulo{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.menu--bar{
+    background-color: var(--colorCeleste);
+    color: var(--colorClaro);
+    font-size: 16px;
+    display: inline-block;
+    position: relative;
+    left: 120px;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 4px;
+}
+

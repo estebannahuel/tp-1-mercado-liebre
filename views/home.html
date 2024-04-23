@@ -4,17 +4,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/62badcedc9.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/stayls.css">
     <title>Mercado | Liebre</title>
 </head>
 
-<body>
+<body class="home">
     <header>
-        <div>
+        <div class="search--bar">
             <img src="/img/logo-mercado-liebre.svg" alt="">
-            <p>Lugar de barra de busqueda</p>
-            <p>Compra en cuotas y sin tarjeta de credito</p>
+            <form action=""><input type="text" placeholder="Buscar productos,marcas"></form>
+            <button><i class="fas fa-search"></i></button>
         </div>
-        <nav>
+        <div class="subTitulo">
+            <p><i class="fas fa-hand-holding-usd"></i>Compra en cuotas y sin tarjeta de credito</p>
+        </div>
+        <nav class="nav--bar">
             <ul>
                 <li><a href="">Ofertas</a></li>
                 <li><a href="">Tiendas Oficiales</a></li>
@@ -22,18 +27,19 @@
                 <li><a href="">Ayuda</a></li>
             </ul>
         </nav>
-        <nav>
+        <nav class="login--bar">
             <ul>
-                <li><a href="">Creá tu cuenta</a></li>
-                <li><a href="">Ingresa</a></li>
-                <li><a href="">Mis conpras</a></li>
+                <li><a href="">Creá tu cuenta <i class="far fa-id-card"></i></a></li>
+                <li><a href="">Ingresa <i class="fas fa-sign-in-alt"></i></a></li>
+                <li><a href="">Mis conpras <i class="fas fa-shopping-basket"></i></a></li>
             </ul>
         </nav>
+        <a href="" class="menu--bar"><i class="fas fa-bars"></i></a>
     </header>
     <main>
         <section>
             <h1>Basado en tu última visita</h1>
-            <div>
+            <div class="caja--ultimasVistas">
                 <div>
                     <img src="/img/img-cafetera-moulinex.jpg" alt="">
                     <p>$6.770</p>
@@ -62,7 +68,7 @@
         </section>
         <section>
             <h1>Ofertas</h1>
-            <div>
+            <div class="ofertas">
                 <div>
                     <img src="/img/img-cafetera-moulinex.jpg" alt="">
                     <p>$6.770</p>
@@ -91,26 +97,29 @@
         </section>
     </main>
     <footer>
-        <article>
-            <div>
+        <article class="footer--caja--padre">
+            <div class="cajas">
+                <i class="fas fa-credit-card"></i>
                 <h2>Pagá con tarjeta o en efectivo</h2>
                 <p>Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en
                     puntos de pago. ¡Y siempre es seguro!</p>
             </div>
-            <div>
+            <div class="cajas">
+                <i class="fas fa-gift"></i>
                 <h2>Envío gratis desde $ 2.500</h2>
                 <p>solo por estar registrad@ en mercado liebre tenés
                     envíos gratis en miles de productos. es un 
                     beneficio de marcado puntos
                 </p>
             </div>
-            <div>
+            <div class="cajas">
+                <i class="fas fa-user-shield"></i>
                 <h2>Seguridad, de principio a fin</h2>
                 <p>¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer,
                     porque estás siempre protegid@.</p>
             </div>
-            <div>
-                <h2>Copyright © 1999-2020 MercadoLiebre S.R.L.</h2>
+            <div class="cajas--copy">
+                <p>Copyright © 1999-2020 MercadoLiebre S.R.L.</p>
             </div>
         </article>
     </footer>

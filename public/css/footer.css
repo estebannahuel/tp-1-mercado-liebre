@@ -1,0 +1,18 @@
+.footer--caja--padre{
+    text-align: center;
+    
+}
+.footer--caja--padre i{
+   color: var(--colorCeleste);
+   font-size: 2em;
+   margin-bottom: 10px;
+}
+
+.cajas{
+    margin: 50px 30px;
+}
+
+.cajas--copy{
+    padding: 15px;
+    text-align: left;
+}
