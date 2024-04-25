@@ -9,7 +9,7 @@
     --colorAmarillo : #EAC926;
     --colorAzul : #03264C;
     --colorCeleste : #1259c3;
-    --colorGrisOscuro : # #666;
+    --colorGrisOscuro : #666;
     --colorClaro : #ebebeb;
     --colorVerde : #39b54a;
     --tipografia : "Roboto", sans-serif;
@@ -23,6 +23,7 @@
 
  h1 {
     font-size: 24px  ;
+    padding: 15px 0;
  }
 
  li{
@@ -34,7 +35,5 @@
     color: black;
  }
  
- nav{
-    margin: 15px 0px;
- }
+
  
